@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: firefox_addon_local_filesystem_links
+Bundle-SymbolicName: firefox_addon_local_filesystem_links
+Bundle-Version: 1.0.0.qualifier
