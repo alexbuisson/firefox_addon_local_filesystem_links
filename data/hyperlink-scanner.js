@@ -86,6 +86,11 @@ function modifyHyperlink(domHref) {
 
     var potentialAlienLink = $(domHref).next();
     var alienHrefElement = null;
+    
+    if (initData.pageUrl.indexOf("edit") != -1) {
+      return
+    }
+
 
     // if the next element has not a special attribute that "alien" links have
     // then create the link (which is always the case on first page load)
